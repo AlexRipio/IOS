@@ -1,0 +1,98 @@
+
+// Ejercicio 1
+
+var altura = 3
+var base = 2
+var area = base * altura
+var perimetro = 2 * base + 2 * altura
+
+print("Perimetro: ", perimetro)
+print("Area: ", area)
+
+
+// Ejercicio 2
+
+var cateto1 : Double = 4
+var cateto2 : Double = 8
+var hipotenusa : Double = sqrt(pow(cateto1, 2) + pow(cateto2, 2))
+print("Hipotenusa: ", hipotenusa)
+
+
+// Ejercicio 3
+
+var num1 = 12
+var num2 = 14
+print("Suma: ", (num1 + num2))
+print("Resta: ", (num1 - num2))
+print("Multiplicación: ", (num1 * num2))
+print("División: ", (num1 / num2))
+
+
+// Ejercicio 4
+
+var farenheit = 17
+var celsius = (farenheit - 32) * 5 / 9
+print("Farenheit: ", farenheit, " - Celsius ", celsius)
+
+
+// Ejercicio 5
+
+var num1 : Double = 17
+var num2 : Double = 24
+var num3 : Double = 13
+var media = (num1 + num2 + num3) / 3
+print("Media: ", media)
+
+
+// Ejercicio 6
+
+var sueldoBase : Double = 1400
+var venta1 : Double = 240
+var venta2 : Double = 350
+var venta3 : Double = 220
+
+var comision1 = venta1 * 1.1
+var comision2 = venta2 * 1.1
+var comision3 = venta3 * 1.1
+
+var comision = comision1  + comision2 + comision3
+var sueldoFinal : Double = sueldoBase + comision
+
+print("Sueldo base: ", sueldoBase)
+print("Comisión: ", comision)
+print("Sueldo final: ", sueldoFinal)
+
+
+
+// Ejercicio 7
+
+var parcial1 : Double = 3.4
+var parcial2 : Double = 6.5
+var parcial3 : Double = 5.1
+var promedio : Double = (parcial1 + parcial2 + parcial3) / 3
+var examenFinal : Double = 7.0
+var trabajoFinal : Double = 8.2
+var notaFinal = (promedio * 0.55) + (examenFinal * 0.3) + (trabajoFinal * 0.15)
+
+print("Nota final: ", notaFinal)
+
+
+// Ejercicio 8
+
+var resCorrect = 71
+var resIn = 23
+var resNull = 6
+var result = (resCorrect * 5) + (resIn * -1) + (resNull * 0)
+
+print("\nPuntuación Final: result )
+
+
+// Ejercicio 9
+
+var sueldoBase : Double = 3100
+var horasExtra : Double? = 9
+let precioHora = 70
+var sueldoExtra = precioHora * (horasExtra ?? 0) 
+var sueldoFinal = sueldoBase + sueldoExtra
+
+print("Sueldo Final: ", sueldoFinal)
