@@ -1,0 +1,98 @@
+
+
+
+class Ordenador {
+    var precio: Double = 0.0
+    var nombre: String?
+    var listaRam = [Ram]()
+    var procesador = Procesador()
+    var listaUniAlmacenamiento = [Almacenamiento]()
+    var tarjetaGrafica = TarjetaGrafica()
+
+}
+
+class Ram {
+    var almacenamiento: Double = 0.0
+    var fabricante: ""
+    var rgb = false
+
+}
+
+class Procesador {
+    var velocidad: Double = 0.0
+    var numCores: Int = 0
+    var numHilos: Int = 0
+    var fabricante: ""
+
+}
+
+class Almacenamiento {
+    var capacidad: Double = 0.0
+    var fabricante: ""
+    var tipo: ""
+
+}
+
+class TarjetaGrafica {
+    var ram: Int = 0
+    var consumo: Double = 0.0
+    var cudaCores: Int = 0
+    var velocidad: Double = 0.0
+
+}
+
+var ram1 = Ram()
+ram1.almacenamiento = 64
+ram1.fabricante = "Corsair"
+ram1.rgb = true
+
+var ram2 = Ram()
+ram2.almacenamiento = 16
+ram2.fabricante = "Corsair"
+ram2.rgb = true
+
+
+var p1 = Procesador()
+p1.velocidad = 7
+p1.numCores = 16
+p1.numHilos = 24
+p1.fabricante = "Intel"
+
+
+var a1 = Almacenamiento()
+a1.capacidad = 256000
+a1.fabricante = "Toshiba"
+a1.tipo = "SSD"
+
+var a2 = Almacenamiento()
+a2.capacidad = 512000
+a2.fabricante = "Toshiba"
+a2.tipo = "SSD"
+
+
+var tg1 = TarjetaGrafica()
+tg1.ram = 16
+tg1.consumo = 600
+tg1.cudaCores = 64
+tg1.velocidad = 5600
+
+
+var listaRam = [Ram]()
+listaRam.append(ram1)
+listaRam.append(ram2)
+
+var ordenador1 = Ordenador()
+ordenador1.precio = 2999.99
+ordenador1.nombre = "Dambook Pro"
+ordenador1.listaRam = listaRam
+ordenador1.procesador = p1
+ordenador1.listaUniAlmacenamiento = listaUniAlmacenamiento
+ordenador1.tarjetaGrafica = tg1
+
+
+var listaUniAlmacenamiento = [Almacenamiento]()
+listaUniAlmacenamiento.append(a1)
+listaUniAlmacenamiento.append(a2)
+
+
+dump(ordenador1)

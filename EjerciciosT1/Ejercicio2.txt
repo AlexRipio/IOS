@@ -1,7 +1,6 @@
-// 2 - EJERCICIOS ESTRUCTURAS
 
-// Ejercicio 1: Algoritmo que pida un número y diga si es positivo, negativo o 0
-print("Ejercicio 1: ")
+// Ejercicio 1: 
+
 var num = 29
 if num > 0 {
     print("\(num) es positivo")
@@ -11,8 +10,7 @@ if num > 0 {
     print("Es 0")
 }
 
-// Ejercicio 2: Escribe un programa que lea un número e indique si es par o impar.
-print("\nEjercicio 2:")
+// Ejercicio 2: 
 var n1 = 11
 if n1 % 2 == 0 {
     print("\(n1) es par")
@@ -22,8 +20,7 @@ if n1 % 2 == 0 {
 
 
 
-// Ejercicio 3: Escribe un programa que dado un nombre de usuario y una contraseña y si se 
-// ha introducido "pepe" y "asdasd" se indica "Has entrado al sistema"
+// Ejercicio 3: 
 print("\nEjercicio 3: ")
 var usuario = "john"
 var password = "gStQ"
@@ -33,8 +30,7 @@ if usuario == "pepe" && password == "gStQ" {
     print("Usuario o contraseña incorrecto")
 }
 
-// Ejercicio 4: Prograrma que dada una cadena por teclado y compruebe si la primera letra es un "/" y la segunda un "*", en caso afirmativo se escribira la palabra entera, en caso contrario escribir "no es correcta".
-print("\nEjercicio 4:")
+// Ejercicio 4: 
 
 var cadena = "/*fff"
 //lo primer sacar el indice
@@ -50,8 +46,7 @@ if(char1 == "/" && char2 == "*"){
 }
 
 
-// Ejercicio 5: Algoritmo que dado tres números y los muestre ordenados (de mayor a menor);
-print("\nEjercicio 5:")
+// Ejercicio 5: 
 var num1 = 30
 var num2 = 9
 var num3 = 223
@@ -83,7 +78,7 @@ print(a)
 print(b)
 print(c)
 
-// Ejercicio 6. //Algoritmo que pida los puntos centrales x1,y1,x2,y2 y los radios r1,r2 de dos circunferencias y las clasifique en uno de estos estados:
+// Ejercicio 6.
 // exteriores
 // tangentes exteriores
 // secantes
@@ -159,8 +154,7 @@ print("Tangente interior: \(tangenteInterior)")
 print("Interior: \(interior)")
 print("Concéntrico: \(concentrico)")
 
-// Ejercicio 7: Crea una aplicación que pida un número y calcule su factorial (El factorial de un número es el producto de todos los enteros entre 1 y el propio número y se representa por el número seguido de un signo de exclamación.
-print("\nEjercicio 7")
+// Ejercicio 7: 
 var num = 43
 var factorial = 1
 for i in 1...num {
@@ -168,8 +162,7 @@ for i in 1...num {
 }
 print("El factorial de \(n) es \(factorial)")
 
-// Ejercicio 8: Algoritmo que cree un array con 10 numeros. Debe imprimir la suma y la media de todos los números introducidos.
-print("\nEjercicio 8")
+// Ejercicio 8: 
 var array : [Int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(array)
 
@@ -184,8 +177,7 @@ media = Double(suma) / Double(array.count)
 print("Suma: \(suma)")
 print("Media: \(media)")
 
-// Ejercicio 9: Algoritmo que cree un array con 10 numeros. El programa debe informar de cuantos números introducidos son mayores que 0, menores que 0 e iguales a 0.
-print("\nEjercicio 9")
+// Ejercicio 9: 
 var array2 : [Int] = [-1, -2, -3, 5, 0, 8, -4, 6, 14, 24]
 var numPos : Int = 0
 var numNeg : Int = 0
@@ -205,8 +197,7 @@ print("Positivos: \(numPos)")
 print("Negativos: \(numNeg)")
 print("Ceros: \(numCeros)")
 
-// Ejercicio 10: Escribir un programa que imprima todos los números pares entre dos números
-print("\nEjercicio 10")
+// Ejercicio 10: 
 var number1 = 3
 var number2 = 15
 var numberPar = 0
@@ -221,9 +212,7 @@ for index in number1...number2  {
 print("Total numeros pares " , numberPar)
 print("Lista numeros pares: ", listaNumPar)
 
-// Ejercicio 11: Una empresa tiene el registro de las horas que trabaja diariamente 
-// un empleado durante la semana (seis días), así como el sueldo que recibirá por las horas
-//  trabajadas.Las horas estan en un array y el precio hora esta en 30}
+// Ejercicio 11:
 print("\nEjercicio 11")
 var horas = ["lunes" : 8, "Martes": 7, "Miercoles" : 7, "Jueves" : 2, "Viernes" : 5, "Sabado" : 3]
 
